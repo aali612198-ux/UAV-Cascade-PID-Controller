@@ -31,10 +31,10 @@ This repository contains a robust control logic implementation designed to stabi
     ```
 
 ## Outputs
-The system automatically generates `output.csv` containing:
-* Global Position vs. Target
-* Velocity & Acceleration Errors
-* PID Component Contributions (P, I, D terms)
+The system automatically generates logs for post-run analysis.
+* **[View Raw Flight Data](flight_data_log.csv)**
+* **Visual Performance:**
+![Step Response Graph](step_response.png)
 
 ## License
 MIT License
