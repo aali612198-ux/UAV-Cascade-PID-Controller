@@ -10,7 +10,7 @@ This repository contains a robust control logic implementation designed to stabi
     * **Anti-Windup:** Integral saturation clipping to prevent overshoot during sustained errors.
     * **Derivative Kick Mitigation:** Calculates derivative term on *measurement* rather than error where appropriate.
     * **Safety Limits:** Output saturation (clipping) to ensure control signals remain within physical actuator limits.
-* **Data Acquisition:** Logs high-frequency telemetry (setpoints, errors, PID outputs) to `output.csv` for post-run analysis.
+* **Data Acquisition:** Logs high-frequency telemetry (setpoints, errors, PID outputs) to `flight_data_log.csv` for post-run analysis.
 
 ## Skills Demonstrated
 * **Control Systems Design:** Implementation of cascade loops and **Ziegler–Nichols** tuning methodology for Z-axis dynamics.
